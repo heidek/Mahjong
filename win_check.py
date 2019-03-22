@@ -1,4 +1,4 @@
-from Mahjong.classes.classes import *
+from classes.classes import *
 
 
 def is_winning_hand(hand):
