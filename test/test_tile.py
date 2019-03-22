@@ -18,7 +18,7 @@ class TestClass:
         assert (x < y)
 
     def test_lt_neg(self):
-        x = Tile(1, 'h')
+        x = Tile(1, 'z')
         y = Tile(2, 'm')
         assert not (x < y)
 

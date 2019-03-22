@@ -73,8 +73,8 @@ def sequence_search(hand):
     sequences = []
     hand_copy = Hand(hand.tiles.copy())
     for tile in hand.tiles:
-        if Tile(tile.value+1, tile.suit) in hand.tiles and Tile(tile.value+2, tile.suit) in hand.tiles:
-            sequence = [tile, Tile(tile.value+1, tile.suit), Tile(tile.value+2, tile.suit)]
+        if Tile(tile.value + 1, tile.suit) in hand.tiles and Tile(tile.value + 2, tile.suit) in hand.tiles:
+            sequence = [tile, Tile(tile.value + 1, tile.suit), Tile(tile.value + 2, tile.suit)]
             try:
                 hand_copy.remove(sequence)
                 sequences.append(sequence)

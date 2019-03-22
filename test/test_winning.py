@@ -30,9 +30,9 @@ class TestClass:
 
     def test_pair_and_two_sequence(self):
         x = Hand([
-                Tile(1, 'm'), Tile(1, 'm'), Tile(1, 'm'), Tile(2, 'm'),
-                Tile(3, 'm'), Tile(1, 'm'), Tile(2, 'm'), Tile(3, 'm')
-            ])
+            Tile(1, 'm'), Tile(1, 'm'), Tile(1, 'm'), Tile(2, 'm'),
+            Tile(3, 'm'), Tile(1, 'm'), Tile(2, 'm'), Tile(3, 'm')
+        ])
         assert is_winning_hand(x)
 
     def test_pair_sequence_triplet(self):
