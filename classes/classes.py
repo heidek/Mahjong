@@ -85,6 +85,10 @@ class Hand:
         return self.tiles == other.tiles
 
     def string_to_tiles(self, text):
+        '''"
+        Enables standard string formats to be read in as a tiles
+        E.g. 1m222p --> Tile(1, 'm'), Tile(2, 'p'), etc.
+        '''
         parsed_tiles = []
         suit_markers = re.findall("[mpsz]", text)
         remainder = text
