@@ -4,4 +4,4 @@ This is a module for Japanese mahjong. Currently, it implements Hand and Tile ob
 
 Uses Pytest for testing.
 
-Further development includes implementing scoring and creating a game using this as a framework.
+Further development includes implementing scoring and creating a game using this project as a framework.
